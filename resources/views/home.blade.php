@@ -8,7 +8,8 @@
 </head>
 
 <body>
-    <h1>Hello World!!</h1>
+    <h1>{{ $title }}</h1>
+    <p>{{ $paragraph }}</p>
 </body>
 
 </html>
