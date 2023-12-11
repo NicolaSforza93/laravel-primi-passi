@@ -11,13 +11,13 @@
     <header>
         <ul class="menu">
             <li>
-                <a href="/news">News</a>
+                <a href="{{ route('news') }}">News</a>
             </li>
             <li>
-                <a href="/contact">Contact</a>
+                <a href="{{ route('contact') }}">Contact</a>
             </li>
             <li>
-                <a href="/about">About</a>
+                <a href="{{ route('about') }}">About</a>
             </li>
         </ul>
     </header>
